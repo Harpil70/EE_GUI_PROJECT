@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('https://png.pngtree.com/thumb_back/fh260/background/20210706/pngtree-soft-gradient-color-background-for-ui-design_2-image_737955.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #2d3436;
+  line-height: 1.6;
+  overflow-x: hidden;
+  height: 100vh;
+}
+.logo {
+  width: 40px;
+  height: auto;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.App {
+  max-width: 98vw;
+  width: 100%;
+  max-width: 1400px;
+  margin: 20px auto;
+  padding: 40px; 
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.95);
+  word-wrap: break-word;
+}
+.App > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.VictoryChart {
+  width: 600px !important;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 20px auto;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #2d3436;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  color: #0984e3;
+  margin: 15px 0 10px;
+  border-bottom: 2px solid #0984e3;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+label {
+  font-size: 1rem;
+  color: #2d3436;
+  margin-right: 10px;
+  font-weight: bold;
+}
+input[type="number"] {
+  padding: 10px;
+  border: 2px solid #b2bec3;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  width: 150px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  color: #2d3436;
+  background-color: #ffffff;
+}
+
+input[type="number"]:focus {
+  border-color: #0984e3;
+  outline: none;
+  box-shadow: 0 0 8px rgba(9, 132, 227, 0.5);
+}
+
+input[type="number"] {
+  width: 100px; 
+}
+
+.App > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.App > div > input {
+  margin-left: 6px;
+}
+
+.App > div > p {
+  margin: 4px 0 0;
+  font-size: 0.9rem;
+  color: #636e72;
+  word-wrap: break-word;
+}
+
+.VictoryContainer {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 8px;
+  background-color: #ffffff;
+}
+
+.VictoryChart {
+  width: 100%; 
+  max-width: 500px;
+  height: auto;
+}
+
+.VictoryLegend text {
+  font-size: 0.9rem;
+  fill: #2d3436;
+}
+
+button {
+  background: linear-gradient(135deg, #0984e3, #74b9ff);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+
+button:hover {
+  background: linear-gradient(135deg, #74b9ff, #0984e3);
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.graph-container {
+  display: none;
+}
+
+.graph-container.visible {
+  display: block;
+}
+
+.sidebar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 1000;
+  display: none;
+  transition: right 0.5s ease;
+}
+
+.sidebar {
+  display: none; 
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar.visible {
+  display: block;
+}
+
+.sidebar.hidden {
+  right: -250px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.power-analysis {
+  margin-top: 15px;
+  color: #2d3436;
+}
+
+.power-analysis .label {
+  font-weight: bold;
+  color: #0984e3;
+}
+
+.power-analysis .apparent-power {
+  color: #74b9ff;
+}
+
+.power-analysis .instantaneous-power {
+  color: #ff7675;
+}
