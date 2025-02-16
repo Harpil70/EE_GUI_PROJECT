@@ -41,7 +41,9 @@ function App() {
     );
     return impedance;
   };
-
+  function handleClick() {
+    alert("Button Clicked!");
+}
   const calculateCurrent = (voltage, impedance) => {
     return impedance ? voltage / impedance : 0;
   };
