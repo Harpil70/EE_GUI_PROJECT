@@ -9,6 +9,26 @@ body {
   overflow-x: hidden;
   height: 100vh;
 }
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+  background-color: #f4f4f4;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
 .logo {
   width: 40px;
   height: auto;
